@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  background-color: #202124;
+  height: 95vh;
+  justify-items: center;
+}
+.card{
+    background:linear-gradient(135deg,#8A2387,#E94057,#F27121);
+    height: 90vh;
+    width: 180vh;
+    margin-top: 5vh;
+}
+nav{
+    justify-content: center;
+    justify-items: center;
+}
+.search input{
+    width: 50vh;
+    border: 0ch;
+    height: 6vh;
+    border-radius: 20px;
+    text-align: center;
+    font-size: medium;
+    margin-top: 5vh;
+    background-color: #EBFDFB;
+}
+
+.search button{
+         height: 6vh;
+         width: 6vh;
+         background-color: #EBFDFB;
+         border-radius: 60px;
+         border: 0ch;
+         font-size: 3vh;
+         margin-left: 1vh;
+}
+
+.weth{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: #EBFDFB;
+    font-size: 10vh;
+}
+h2{
+    text-align: center;
+    color: #EBFDFB;
+    font-size: 7vh;
+}
+.wind{
+    display: flex;
+    padding-left: 20vh;
+}
+.wind img{
+    height: 6vh;
+}
+.wind .speed{
+    color: #EBFDFB;
+    text-align: center;
+    margin-left: 1vh;
+
+}
+.speed h3{
+    font-size: 4.5vh;
+}
+.speed p{
+    font-size: 2.8vh;
+}
+.last{
+    display: flex;
+}
+.humidity img{
+    height: 6vh;
+}
+.humidity{
+    display: flex;
+    padding-right: 20vh;
+}
+.speed1 h3{
+    font-size: 4.5vh;
+    color: #EBFDFB;
+}
+.speed1 p{
+    font-size: 3.5vh;
+    color: #EBFDFB;
+}
+.speed1{
+    margin-left: 2vh;
+}
+.hero1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.hero2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.tempmax{
+    color: white;
+    font-size: 4vh;
+    text-align: center;
+}
+.tempmin{
+    color: white;
+    font-size: 4vh;
+    text-align: center;
+}
+.hero3{
+    position: relative;
+    left: 2vh;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3vh;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+.cn{
+    font-size: 6vh;
+    font-weight: 900;
+}
+
+.coun{
+    font-size: 5vh;
+}
+
+.np{
+    font-size: 4vh;
+   
+}
+.fl{
+    font-size: 4vh;
+}
+.feelslike p{
+    font-size:4vh;
+}
+.copyr{
+    text-align: center;
+    color: white;
+    margin-top: 3vh;
+}
