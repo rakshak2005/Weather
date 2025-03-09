@@ -177,9 +177,10 @@ h2{
     }
     nav{
         justify-content: center;
-        justify-items: center;
+    justify-items: normal;
     }
     .search input{
+        margin-left: 5vh;
         width: 30vh;
         border: 0ch;
         height: 5vh;
