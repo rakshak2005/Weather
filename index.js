@@ -15,25 +15,24 @@ async function weather(city){
     document.querySelector(".tmin").innerHTML = Math.round(data.main.temp_min)+"°c ";
     document.querySelector(".pn").innerHTML = Math.round(data.main.pressure);
     document.querySelector(".p").innerHTML = Math.round(data.main.feels_like)+"°c";
-    console.log(data.weather[0].main);
 
-    if(data.weather[0].main = "clear"){
+    if(data.weather[0].main == "Clear"){
         weth.src="./images/clear.png";
     }
-    else if (data.weather[0].main = "clouds"){
+    else if (data.weather[0].main == "Clouds"){
         weth.src="./images/clouds.png";
     }  
 
-    else if (data.weather[0].main = "drizzle"){
+    else if (data.weather[0].main == "Drizzle"){
         weth.src="./images/drizzle.png";
     }  
-    else if (data.weather[0].main = "mist"){
+    else if (data.weather[0].main == "Mist"){
         weth.src="./images/mist.png";
     }  
-    else if (data.weather[0].main = "rain"){
+    else if (data.weather[0].main == "Rain"){
         weth.src="./images/rain.png";
     }  
-    else if (data.weather[0].main = "snow"){
+    else if (data.weather[0].main == "Snow"){
         weth.src="./images/snow.png";
     }  
 
